@@ -1,6 +1,12 @@
+
+import Board from "./Board/Board";
+
 function TicTacToeGame(){
+   
     return(
-        <div>TicTacToeGame</div>
+        <div>
+          <Board/>
+        </div>
     )
 }
 export default TicTacToeGame;
